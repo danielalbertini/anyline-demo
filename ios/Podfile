@@ -33,6 +33,7 @@ abstract_target "ReactNative" do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
   # RN pods end
+  pod 'AnylineReact', path: '../node_modules/anyline-ocr-react-native-module/ios'
 
   # Libs
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'

@@ -1,6 +1,7 @@
 package com.mendix.nativetemplate;
 
 import com.airbnb.android.react.maps.MapsPackage;
+import com.anyline.reactnative.AnylinePackage;
 import com.brentvatne.react.ReactVideoPackage;
 import com.calendarevents.CalendarEventsPackage;
 import com.codemotionapps.reactnativedarkmode.DarkModePackage;
@@ -46,6 +47,7 @@ public class MainApplication extends MendixReactApplication {
     List<ReactPackage> packages = new ArrayList<>();
     packages.addAll(Arrays.asList(
             new MainReactPackage(),
+            new AnylinePackage(),
             new FastImageViewPackage(),
             new DarkModePackage(),
             new CodePush(getCodePushKey(), getApplicationContext(), BuildConfig.DEBUG),
